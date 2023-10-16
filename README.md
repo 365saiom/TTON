@@ -40,44 +40,57 @@
   
 ## 기능
 
-- ### Login
+- ### 로그인 페이지
   <details>
   <summary>기능 제목 넣어주세용</summary>
   <div markdown="1">
   기능 내용 ~
   </div>
   </details>
+   + 사진이나 움짤 넣기
+   
+  <br>
 
-- ### Dashboard
+- ### 대시보드 페이지
   <details>
   <summary>기능 제목 넣어주세용</summary>
   <div markdown="1">
   기능 내용 ~
   </div>
   </details>
+  + 사진이나 움짤 넣기
+  
+  <br>
 
-- ### Board
+- ### 게시판 페이지
    <details>
   <summary>기능 제목 넣어주세용</summary>
   <div markdown="1">
   기능 내용 ~
   </div>
   </details>
+   + 사진이나 움짤 넣기
+   
+  <br>
 
-- ### Calendar
+- ### 캘린더 페이지
    <details>
   <summary>기능 제목 넣어주세용</summary>
   <div markdown="1">
   기능 내용 ~
   </div>
   </details>
+   + 사진이나 움짤 넣기
+   
+  <br>
 
-- ### TodoList
+- ### 할일 페이지
    <details>
   <summary>기능 제목 넣어주세용</summary>
   <div markdown="1">
   기능 내용 ~
   </div>
   </details>
+  + 사진이나 움짤 넣기
 
 

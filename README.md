@@ -1,16 +1,19 @@
-<img src="https://capsule-render.vercel.app/api?type=soft&color=81CAFF&animation=blinking&height=200&section=header&text=TODAY'S%20TASK%20ON&fontSize=60&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=81CAFF&animation=blinking&height=200&section=header&text=Today's%20Task%20ON&fontSize=60&fontAlignY=45&fontColor=ffffff&desc=오늘의%20업무를%20한눈에&descAlignY=75&descAlign=50"/>
 
-# TTON - 오늘의 업무를 한눈에
-한줄 설명 ~
+  
+업무 프로젝트 관리, 업무 일정 관리, 업무 협업 및 문서 공유를 위한 서비스 테스크 중심의 워크 매니지먼트
 
 <br>
-<span style="align:center"><img src="https://github.com/Ohjju/TTON/assets/136290438/b2bbed09-acff-4be0-8810-ae946948ad05" width="800" height:"450"></span>
+
+<hr>
+
+<p style="align:center"><img src="https://github.com/Ohjju/TTON/assets/136290438/b2bbed09-acff-4be0-8810-ae946948ad05" width="1000" height:"450"></p>
 
 ### URL : https://todays-task-on.web.app/
 <br>
 
 ## 프로젝트 소개 
-줄글소개 ~
+소수의 인원도 부담 없이 사용할 수 있습니다. 팀원간의 공유 뿐만 아니라 개인적인 일정 앱으로도 사용할 수 있도록 공유되는 부분과 개인적인 부분을 분리했습니다. 업무 환경의 효율성을 높이기 위해 세 가지의 핵심 기능을 사용할 수 있습니다.
 <br><br><br>
 <hr>
 
@@ -39,18 +42,42 @@
 
 - ### Login
   <details>
-  <summary>토글 접기/펼치기</summary>
+  <summary>기능 제목 넣어주세용</summary>
   <div markdown="1">
-  텍스트 , 이미지 등등 입력
+  기능 내용 ~
   </div>
   </details>
 
 - ### Dashboard
+  <details>
+  <summary>기능 제목 넣어주세용</summary>
+  <div markdown="1">
+  기능 내용 ~
+  </div>
+  </details>
 
 - ### Board
+   <details>
+  <summary>기능 제목 넣어주세용</summary>
+  <div markdown="1">
+  기능 내용 ~
+  </div>
+  </details>
 
 - ### Calendar
+   <details>
+  <summary>기능 제목 넣어주세용</summary>
+  <div markdown="1">
+  기능 내용 ~
+  </div>
+  </details>
 
 - ### TodoList
+   <details>
+  <summary>기능 제목 넣어주세용</summary>
+  <div markdown="1">
+  기능 내용 ~
+  </div>
+  </details>
 
 

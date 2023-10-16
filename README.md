@@ -34,6 +34,9 @@
 - **기술 스택** : <br>
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
++ 타입스크립트, scss, react 등 추가하기
++디자인 figma도!
+
 - **협업 도구** : <br>
 <img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=whit"> <img src="https://img.shields.io/badge/Notion-e1e1e1?style=for-the-badge&logo=notion&logoColor=black">
 <br/><br/><br/>
@@ -64,9 +67,19 @@
 
 - ### 게시판 페이지
    <details>
-  <summary>기능 제목 넣어주세용</summary>
+  <summary> 게시판 page 내 게시글, 댓글 기능 구현 </summary>
   <div markdown="1">
-  기능 내용 ~
+    
+    - 게시판 page 전체 퍼블리싱
+    
+    - 게사글/댓글 조회 기능
+      
+    - **Redux Toolkit**의 **useSeletor**를 이용한 조회 구현
+      
+    - 게시글/댓글 등록, 삭제 기능
+      
+    - 글 등록, 삭제의 **액션 생성 함수**를 선언해주고, **리듀서 함수**와 **dispatch 메소드**로 등록, 삭제 처리
+      
   </div>
   </details>
    + 사진이나 움짤 넣기

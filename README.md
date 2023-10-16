@@ -12,12 +12,12 @@
 ### URL : https://todays-task-on.web.app/
 <br>
 
-## 프로젝트 소개 
+## :desktop_computer: 프로젝트 소개 
 소수의 인원도 부담 없이 사용할 수 있습니다. 팀원간의 공유 뿐만 아니라 개인적인 일정 앱으로도 사용할 수 있도록 공유되는 부분과 개인적인 부분을 분리했습니다. 업무 환경의 효율성을 높이기 위해 세 가지의 핵심 기능을 사용할 수 있습니다.
 <br><br><br>
 <hr>
 
-## 프로젝트 개요
+## :desktop_computer: 프로젝트 개요
 - **프로젝트 명** : TTON (Today's Task ON)
 
 - **기간** : 9/22 ~ 10/13
@@ -41,7 +41,7 @@
 <img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=whit"> <img src="https://img.shields.io/badge/Notion-e1e1e1?style=for-the-badge&logo=notion&logoColor=black">
 <br/><br/><br/>
   
-## 기능
+## :pushpin: 기능
 
 - ### 로그인 페이지
   <details>
@@ -72,7 +72,7 @@
     
     - 게시판 page 전체 퍼블리싱
     
-    - 게사글/댓글 조회 기능
+    - 게시글/댓글 조회 기능
       
     - **Redux Toolkit**의 **useSeletor**를 이용한 조회 구현
       
@@ -88,7 +88,7 @@
 
 - ### 캘린더 페이지
    <details>
-  <summary>기능 제목 넣어주세용</summary>
+  <summary>캘린더 일정 등록, 삭제 기능</summary>
   <div markdown="1">
   기능 내용 ~
   </div>

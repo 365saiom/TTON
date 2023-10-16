@@ -29,17 +29,22 @@
   |**이름**|한정윤|정애림|김예은|오주현|
   |**담당**|UI/UX|개발|개발|개발|
   |**세부담당**|세부담당|세부담당|세부담당|세부담당|
-
+<br>
 
 - **기술 스택** : <br>
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white"/> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
 
-+ 타입스크립트, scss, react 등 추가하기
-+디자인 figma도!
+- **디자인** : <br>
+  <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+
 
 - **협업 도구** : <br>
 <img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=whit"> <img src="https://img.shields.io/badge/Notion-e1e1e1?style=for-the-badge&logo=notion&logoColor=black">
+
+- **배포** : <br>
+  <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
 <br/><br/><br/>
+
   
 ## 기능
 

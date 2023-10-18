@@ -1,4 +1,4 @@
-![ezgif com-video-to-gif (3)](https://github.com/Aelimong/TTON/assets/111756152/7022d3bd-3404-42f3-98c1-68018872be6e)<img src="https://capsule-render.vercel.app/api?type=soft&color=81CAFF&animation=blinking&height=200&section=header&text=Today's%20Task%20ON&fontSize=60&fontAlignY=45&fontColor=ffffff&desc=오늘의%20업무를%20한눈에&descAlignY=75&descAlign=50"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=81CAFF&animation=blinking&height=200&section=header&text=Today's%20Task%20ON&fontSize=60&fontAlignY=45&fontColor=ffffff&desc=오늘의%20업무를%20한눈에&descAlignY=75&descAlign=50"/>
 
   
 업무 프로젝트 관리, 업무 일정 관리, 업무 협업 및 문서 공유를 위한 서비스 테스크 중심의 워크 매니지먼트

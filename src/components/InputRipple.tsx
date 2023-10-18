@@ -25,6 +25,7 @@ export default function InputRipple({ currentBoardID }: PropsTypeRipple) {
     );
 
     (inputRef.current as any).value = null;
+    prepareScroll();
   }
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
@@ -32,6 +33,17 @@ export default function InputRipple({ currentBoardID }: PropsTypeRipple) {
       handleRippleContent();
     }
   };
+
+  // 준비 함수, 약간의 시간을 두어 scroll 함수를 호출하기
+  function prepareScroll() {
+    window.setTimeout(scrollUl, 50);
+  }
+
+  // scroll 함수
+  function scrollUl() {
+    let chatUl = document.querySelector(".side-detail") as HTMLParagraphElement;
+    chatUl.scrollTop = chatUl.scrollHeight; // 스크롤의 위치를 최하단으로
+  }
 
   return (
     <>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { rippleItem } from "../store/modules/rippleTypes";
 import { boardItem } from "../store/modules/boardTypes";
@@ -22,6 +22,22 @@ export default function BoardSideDetail({ currentBoardID }: PropsTypeRipple) {
   const boardFilteredList = boardList.filter(
     (el: boardItem) => el.boardID === currentBoardID
   );
+
+  // 첫 렌더링에서만 실행
+  useEffect(() => {
+    prepareScroll();
+  }, []);
+
+  // 준비 함수, 약간의 시간을 두어 scroll 함수를 호출하기
+  function prepareScroll() {
+    window.setTimeout(scrollUl, 50);
+  }
+
+  // scroll 함수
+  function scrollUl() {
+    let chatUl = document.querySelector(".side-detail") as HTMLParagraphElement;
+    chatUl.scrollTop = chatUl.scrollHeight; // 스크롤의 위치를 최하단으로
+  }
 
   return (
     <>

@@ -1,16 +1,11 @@
 import "../styles/board.scss";
-import React, { useState, SetStateAction } from "react";
+import React, { useState, SetStateAction, useEffect } from "react";
 import BoardDetail from "../components/BoardDetail";
 import InputContent from "../components/InputContent";
 import BoardSideDetail from "../components/BoardSideDetail";
 import InputRipple from "../components/InputRipple";
 
-import { useDispatch, useSelector } from "react-redux";
-import {
-  writeContent,
-  updateContent,
-  deleteContent,
-} from "../store/modules/boardReducer";
+import { useSelector } from "react-redux";
 import { boardItem } from "../store/modules/boardTypes";
 
 export interface PropsType {
@@ -39,6 +34,23 @@ export default function BoardContent() {
   const boardFilteredList = boardList.filter(
     (el: boardItem) => el.isDeleted === false
   );
+
+  // 첫 렌더링에서만 실행
+  useEffect(() => {
+    prepareScroll();
+  }, []);
+
+  // 준비 함수, 약간의 시간을 두어 scroll 함수를 호출하기
+  function prepareScroll() {
+    window.setTimeout(scrollUl, 50);
+  }
+
+  // scroll 함수
+  function scrollUl() {
+    // 채팅창 form 안의 ul 요소, (ul 요소 안에 채팅 내용들이 li 요소로 입력된다.)
+    let chatUl = document.querySelector(".detail-area") as HTMLParagraphElement;
+    chatUl.scrollTop = chatUl.scrollHeight; // 스크롤의 위치를 최하단으로
+  }
 
   return (
     <>

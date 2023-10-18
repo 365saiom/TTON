@@ -32,7 +32,7 @@
 <br>
 
 - **기술 스택** : <br>
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white"/> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=purple">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white"/> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=purple">
 
 - **디자인** : <br>
   <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
@@ -50,28 +50,53 @@
 
 - ### 로그인 페이지
   <details>
-  <summary>기능 제목 넣어주세용</summary>
+  <summary>로그인 화면</summary>
   <div markdown="1">
-  기능 내용 ~
+    
+    - 로그인 페이지 전체 퍼블리싱
+      
+    - **`React의 Link 컴포넌트`** 를 사용해 대시보드 창으로 이동   
   </div>
-  </details>
-   + 사진이나 움짤 넣기
-   
+  </details> 
   <br>
 
 - ### 대시보드 페이지
   <details>
-  <summary>기능 제목 넣어주세용</summary>
+  <summary>내 화면</summary>
   <div markdown="1">
-  기능 내용 ~
+
+    - 대시보드 페이지 전체 퍼블리싱
+
+    - **`react-calendar`** 커스텀하여 캘린더 구현
+      
+  </div>   <br>
+  </details>
+  
+  <details>
+  <summary>캘린더와 메모</summary>
+  <div markdown="1">
+  
+    - todolist와 일정 **연동** (주요 내용만)
+ 
+    - `textarea`로 메모 구현
+  
+  </div>   <br>
+  </details>
+
+  <details>
+  <summary>할일과 일정</summary>
+  <div markdown="1">
+
+    - 프로필 사진 등록 및 수정
+
+    - **`new Date`** 와 **`getTime`** 등을 이용해 근태 관리 (출, 퇴근, 근무 시간)
+  
   </div>
   </details>
-  + 사진이나 움짤 넣기
-  
   <br>
 
 - ### 게시판 페이지
-   <details>
+  <details>
   <summary> 게시판 page 내 게시글, 댓글 기능 구현 </summary>
   <div markdown="1">
     
@@ -86,29 +111,92 @@
     - 글 등록, 삭제의 **액션 생성 함수**를 선언해주고, **리듀서 함수**와 **dispatch 메소드**로 등록, 삭제 처리
       
   </div>
-  </details>
-   + 사진이나 움짤 넣기
-   
-  <br>
+  </details> <br>
 
 - ### 캘린더 페이지
-   <details>
+  <details>
   <summary>캘린더 일정 등록, 삭제 기능</summary>
   <div markdown="1">
   기능 내용 ~
   </div>
   </details>
-   + 사진이나 움짤 넣기
-   
   <br>
 
 - ### 할일 페이지
-   <details>
-  <summary>기능 제목 넣어주세용</summary>
+  <details>
+  <summary>할일 화면 구현 및 추가 기능(Todo)</summary>
   <div markdown="1">
-  기능 내용 ~
+
+    - 할일 페이지 전체 퍼블리싱
+
+    - 할일/ 진행 중/ 완료 영역별로 각각 할일을 **배열**로 저장 <br>(inputTodo, inputDoing, inputDone)
+ 
+    - 배열을 **`useState`** 로 구현 (id와 TodoBox 컴포넌트로 구성)
+ 
+    - **`map`** 을 이용해 배열 안의 할일들을 보이게 하고, id를 ‘item_숫자’ 형태로 부여
+ 
+    - 할일 추가 시 **`set함수`**와 **전개연산자** 이용해 새로운 할일을 배열에 추가 <br>(addTodo, addDoing, addDone 함수)
+ 
+    - 플러스 아이콘을 **onClick**시 위의 함수가 실행
+  
+  </div>  <br>
+  </details>
+  
+  <details>
+  <summary>할일 관리</summary>
+  <div markdown="1">
+  
+    - TodoBox
+       - 배열은 **id와 TodoBox** 컴포넌트로 구성
+       - TodoBox 생성 시 랜덤으로 box 색을 지정한 후 바뀌지 않게 하기 위해 `Math.random()` 과 **`useRef`** 사용
+       - input창에 바로 제목과 내용 작성 가능
+       - **`datapicker`** 로 날짜 설정,	**`useState`** 로 startDate와 endDate를 구현
+       - **`useState`** 를 이용해 view가 true일 경우 TodoDropdown 컴포넌트가 보이도록 함
+ 
+    - TodoDropBox
+       - 상세 설정(상태변경, 색 변경, 삭제)
+       - id를 **props** 로 받아와 삼항연산자를 이용해 해당되는 곳에 변경내용을 반영
+       - 입력받은 변경사항을 **props**로 받아와 **`getElementById`** 와 **`querSelector`** 를 이용해 해당 부분에 적용 <br>(ChangeColor, ChangeState, DeleteColor )
+       - 드래그앤 드롭 기능
+ 
+    - DatePicker
+       - **`react-datepicker`** 을 커스텀하여 미니캘린더와 디자인 통일
+  
+  </div>  <br>
+  </details>
+
+  <details>
+  <summary>사이드 메뉴(미니캘린더, 할일 정리)</summary>
+  <div markdown="1">
+
+    - 캘린더 페이지에서 **컴포넌트**로 가져와 유지보수 용이
+
+    - 현재 날짜를 바로 알 수 있게 원으로 표시
+    
+    - 대시보드의 캘린더와 **디자인 통일**되게 커스텀(react-Calendar)
+ 
+    - **드롭다운** 메뉴로 연동된 작성된 할일 정리
+ 
+    - 별 아이콘 누르면 중요 일정에 표시
+  
+  </div>  <br>
+  </details>
+
+  <details>
+  <summary>헤더, 햄버거 메뉴 통일</summary>
+  <div markdown="1">
+
+    - 헤더에서 로고 누르면 대시보드 페이지로 돌아감
+
+    - **삼항연산자** 사용해 대시보드에서는 햄버거 메뉴가 보이지 않고 나머지 페이지에서는 보이게 함
+ 
+    - 각 페이지 때마다 해당 아이콘의 색을 파랑으로 변경
+ 
+    - 햄버거 메뉴는 누르면 보이도록 **onClick**시 **`toggle`** 로 show 클래스 추가
+ 
+    - `Transform` 과 `transition`을 사용해 부드럽게 동작
+  
   </div>
   </details>
-  + 사진이나 움짤 넣기
 
 

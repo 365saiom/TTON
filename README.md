@@ -60,6 +60,25 @@
   </details> 
   <br>
 
+- ### 헤더, 햄버거 메뉴
+  <details>
+  <summary>헤더와 햄버거 메뉴 통일</summary>
+  <div markdown="1">
+    
+     - 헤더에서 로고 누르면 대시보드 페이지로 돌아감
+
+    - **삼항연산자** 사용해 대시보드에서는 햄버거 메뉴가 보이지 않고 나머지 페이지에서는 보이게 함
+ 
+    - 각 페이지 때마다 해당 아이콘의 색을 파랑으로 변경
+ 
+    - 햄버거 메뉴는 누르면 보이도록 **onClick**시 **`toggle`** 로 show 클래스 추가
+ 
+    - `Transform` 과 `transition`을 사용해 부드럽게 동작
+        
+  </div>
+  </details> 
+  <br>
+
 - ### 대시보드 페이지
   <details>
   <summary>내 화면</summary>
@@ -147,7 +166,7 @@
  
     - **`map`** 을 이용해 배열 안의 할일들을 보이게 하고, id를 ‘item_숫자’ 형태로 부여
  
-    - 할일 추가 시 **`set함수`**와 **전개연산자** 이용해 새로운 할일을 배열에 추가 <br>(addTodo, addDoing, addDone 함수)
+    - 할일 추가 시 **`set함수`** 와 **전개연산자** 이용해 새로운 할일을 배열에 추가 <br>(addTodo, addDoing, addDone 함수)
  
     - 플러스 아이콘을 **onClick**시 위의 함수가 실행
   
@@ -194,21 +213,5 @@
   </div>  <br>
   </details>
 
-  <details>
-  <summary>헤더, 햄버거 메뉴 통일</summary>
-  <div markdown="1">
-
-    - 헤더에서 로고 누르면 대시보드 페이지로 돌아감
-
-    - **삼항연산자** 사용해 대시보드에서는 햄버거 메뉴가 보이지 않고 나머지 페이지에서는 보이게 함
- 
-    - 각 페이지 때마다 해당 아이콘의 색을 파랑으로 변경
- 
-    - 햄버거 메뉴는 누르면 보이도록 **onClick**시 **`toggle`** 로 show 클래스 추가
- 
-    - `Transform` 과 `transition`을 사용해 부드럽게 동작
-  
-  </div>
-  </details>
 
 

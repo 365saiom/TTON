@@ -48,6 +48,9 @@
   
 ## :pushpin: 기능
 
+<p align="center">
+  <img src="https://github.com/Aelimong/TTON/assets/111756152/625e34f5-7230-42d8-a134-6f15b848b64b">
+</p>
 - ### 로그인 페이지
   <details>
   <summary>로그인 화면</summary>
@@ -132,6 +135,9 @@
   </div>
   </details> <br>
 
+<p align="center">
+  <img src="https://github.com/Aelimong/TTON/assets/111756152/625e34f5-7230-42d8-a134-6f15b848b64b">
+</p>
 - ### 캘린더 페이지
   <details>
   <summary>캘린더 일정 등록, 삭제 기능</summary>
@@ -152,7 +158,9 @@
   </div>
   </details>
   <br>
-
+<p align="center">
+  <img src="https://github.com/Aelimong/TTON/assets/111756152/1e92667d-dbd8-47e4-9093-1396d630a80c">
+</p>
 - ### 할일 페이지
   <details>
   <summary>할일 화면 구현 및 추가 기능(Todo)</summary>

@@ -118,6 +118,10 @@
   </div>
   </details>
   <br>
+  
+<p align="center">
+  <img src="https://github.com/Aelimong/TTON/assets/111756152/625e34f5-7230-42d8-a134-6f15b848b64b">
+</p>
 
 - ### 게시판 페이지
   <details>
@@ -136,10 +140,6 @@
       
   </div>
   </details> <br>
-
-<p align="center">
-  <img src="https://github.com/Aelimong/TTON/assets/111756152/625e34f5-7230-42d8-a134-6f15b848b64b">
-</p>
 
 - ### 캘린더 페이지
   <details>
@@ -161,6 +161,7 @@
   </div>
   </details>
   <br>
+  
 <p align="center">
   <img src="https://github.com/Aelimong/TTON/assets/111756152/1e92667d-dbd8-47e4-9093-1396d630a80c">
 </p>

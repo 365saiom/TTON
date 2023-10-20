@@ -48,10 +48,19 @@
 
   
 ## :pushpin: 기능
-
 <p align="center">
   <img src="https://github.com/Aelimong/TTON/assets/111756152/625e34f5-7230-42d8-a134-6f15b848b64b">
 </p>
+
+<p align="center">
+  <img src="https://github.com/Aelimong/TTON/assets/136290438/31ddfadc-c82d-476d-8e44-02750d22a9e5">
+</p>
+  
+<p align="center">
+  <img src="https://github.com/Aelimong/TTON/assets/111756152/1e92667d-dbd8-47e4-9093-1396d630a80c">
+</p>
+
+<br>
 
 - ### 로그인 페이지
   <details>
@@ -118,10 +127,7 @@
   </div>
   </details>
   <br>
-  
-<p align="center">
-  <img src="https://github.com/Aelimong/TTON/assets/111756152/625e34f5-7230-42d8-a134-6f15b848b64b">
-</p>
+
 
 - ### 게시판 페이지
   <details>
@@ -161,10 +167,7 @@
   </div>
   </details>
   <br>
-  
-<p align="center">
-  <img src="https://github.com/Aelimong/TTON/assets/111756152/1e92667d-dbd8-47e4-9093-1396d630a80c">
-</p>
+
 
 - ### 할일 페이지
   <details>
